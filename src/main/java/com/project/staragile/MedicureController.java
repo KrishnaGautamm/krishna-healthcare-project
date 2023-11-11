@@ -15,7 +15,7 @@ MedicureService doctorService;
 
 @GetMapping("/hello")
 public String sayHello() {
-	return "Hello from Doctor Tousif";
+	return "Hello from Doctor Krishna";
 }
 
 @GetMapping("/createDoctor")
