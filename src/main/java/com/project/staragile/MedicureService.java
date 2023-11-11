@@ -14,7 +14,7 @@ public class MedicureService {
 		}
 
 	public Doctor createDoctor() {
-		Doctor doctor = new Doctor("MP1110","Tousif","Neurologist","15 Years");
+		Doctor doctor = new Doctor("MP1110","Krishna","Neurologist","15 Years");
 		return doctorRepository.save(doctor);
 	}
 
@@ -24,12 +24,12 @@ public class MedicureService {
 	}
 	
 	public Doctor registerDummyDoctor() {
-		Doctor doctor = new Doctor("MP1110","Tousif","Neurologist","15 Years");
+		Doctor doctor = new Doctor("MP1110","Krishna","Neurologist","15 Years");
 		return doctor;
 	}
 	
 	public String sayHello() {
-		return "Hello from Doctor Tousif";
+		return "Hello from Doctor Krishna";
 	}
 
 }
